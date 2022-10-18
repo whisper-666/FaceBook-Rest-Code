@@ -14,7 +14,7 @@ print(f'''{B}{E}==============================
 |{G}[+] InstaGram : {B}_whisper.io_|
 |{G}[+] TeleGram  : {B}whisper_io  |
 {E}==============================''')
-user=input(f'{S}[+] Target ID ==> {B}')
+id=input(f'{S}[+] Target ID ==> {B}')
 print(f'{E}==============================')
 while True:
  code=str("".join(random.choice(user)for i in range(6)))
